@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {useEffect} from 'react';
 import {useDispatch, useSelector} from "react-redux";
 import {peopleActions} from "../../redux";
 import {usePageQuery} from "../../hooks";
@@ -20,7 +20,7 @@ const PeopleAll = () => {
     return (
         <div>
             <div>
-            {peopleAll.map(people=><People key={`${people.name}-${people.height}`} people={people}/>)}
+            {peopleAll &&peopleAll.map(people=><People key={`${people.name}-${people.height}`} people={people}/>)}
             </div>
 
             <div>
