@@ -1,0 +1,30 @@
+
+.Header {
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: cornflowerblue;
+    color: darkgray;
+    display: flex;
+    border-radius: 5px;
+}
+
+
+
+
+.Home {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-size: 27px;
+    color: #cccccc;
+}
+
+.Search{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-size: 27px;
+    color: #cccccc;
+    margin-left: 60px;
+}

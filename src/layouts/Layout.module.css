@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    min-height: 100vh;
+}
+
+.Layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: #005AA7;
+    background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);
+    background: linear-gradient(to right, #FFFDE4, #005AA7);
+}
+
+.light {
+    background: #005AA7;
+    background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);
+    background: linear-gradient(to right, #FFFDE4, #005AA7);
+}
+
+.dark {
+    background: #000046;
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);
+    background: linear-gradient(to right, #1CB5E0, #000046);
+}
